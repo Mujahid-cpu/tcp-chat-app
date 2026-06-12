@@ -46,5 +46,5 @@ def receive():
         thread = threading.Thread(target=handle, args=(client,))
         thread.start()  # Creates and starts thread
 
-print('Server is on')
+print('Server is listening...')
 receive()
